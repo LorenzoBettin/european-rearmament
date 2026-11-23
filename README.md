@@ -45,13 +45,73 @@ Place the downloads in a local `data/raw/` folder, then run the notebook from th
 
 Some intermediate results are written into `data/processed/`; this directory is excluded from Git. Reproduction depends on obtaining compatible dataset releases and exports.
 
-## Rights and attribution
 
-SIPRI data are credited to the Stockholm International Peace Research Institute (SIPRI). The project has **conditional permission for a personal, non-commercial research portfolio**. The original SIPRI datasets and database exports are **not redistributed** in this repository. This permission should not be interpreted as an unrestricted license for others to republish or commercialize SIPRI data.
+## Rights and Attribution
 
-Geographic boundaries come from Eurostat GISCO. **© EuroGeographics for the administrative boundaries.** Any use of that data remains subject to its own terms.
+### SIPRI Data
 
-The notebook was published with saved cell outputs removed to avoid distributing embedded raw data tables. Its source code and analytical methods are retained.
+This project uses information from two databases maintained
+by the Stockholm International Peace Research Institute (SIPRI).
+
+**Military expenditure data:**
+
+Information from the Stockholm International Peace Research
+Institute (SIPRI) Military Expenditure Database:
+https://doi.org/10.55163/CQGC9685
+
+**Major-arms transfer data:**
+
+Information from the Stockholm International Peace Research
+Institute (SIPRI) Arms Transfers Database:
+https://doi.org/10.55163/SAFC1241
+
+All statistical analyses, calculations, interpretations and
+original visualizations were produced by the author.
+
+### Permission to Publish
+
+SIPRI has granted the author conditional authorization to
+publish SIPRI-derived analysis and visualizations in a
+personal, non-commercial academic and professional portfolio.
+
+This authorization applies to the author acting as a
+private individual and is subject to SIPRI's conditions.
+SIPRI reserves the right to withdraw authorization.
+
+Commercial use, including use through a business or
+sole-trader activity, may require a separate licence.
+
+The original SIPRI databases, downloaded datasets and
+database exports are not redistributed through this
+repository or the associated portfolio website.
+
+The authorization granted to the author does not constitute
+a general licence for third parties to redistribute or
+commercialize SIPRI data.
+
+### Geographical Data
+
+Geographical data were obtained from Eurostat GISCO:
+https://ec.europa.eu/eurostat/web/gisco
+
+© EuroGeographics for the administrative boundaries.
+
+Reuse of GISCO geographical data remains subject to its
+own applicable licence conditions and attribution
+requirements.
+
+### Research Code
+
+The Python notebook contains the author's original
+analytical code and methodology.
+
+Saved notebook outputs were removed before publication
+to avoid redistributing embedded source data.
+
+Users wishing to reproduce the results must obtain the
+underlying datasets from their official providers and
+comply with the applicable terms and conditions.
+
 
 ## Limitations
 
